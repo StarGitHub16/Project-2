@@ -1,0 +1,47 @@
+
+
+/*Styles pertaining to The HD display of the webpage*/
+
+header {
+    width: 100%;
+    height: 60px;
+    background: rgb(100,100,100);
+    margin-bottom: 5px;
+}
+
+    .logo {
+        width: 200px;
+        height: 60px;
+        background: rgb(200,200,200);
+        float: left;
+    }
+
+    nav {
+        float: right;
+    }
+
+    nav li {
+        display: inline;
+        margin-right: 30px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    nav li a {
+        color: rgb(255,255,255);
+        text-decoration: none;
+    }
+
+    nav li a:hover {
+        color: rgb(150,150,150);
+        text-decoration: underline;
+    }
+
+
+footer {
+    width: 100%;
+    height: 60px;
+    background: rgb(100,100,100);
+    text-align:center;
+    }
+    
