@@ -38,6 +38,7 @@ header {
     }
 
 
+
 footer {
     width: 100%;
     height: 60px;
@@ -45,3 +46,9 @@ footer {
     text-align:center;
     }
     
+/*Styles pertaining to The Mobile Version of the webpage*/
+
+@media (max-width: 550px)
+{
+
+}

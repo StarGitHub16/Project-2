@@ -13,12 +13,11 @@ searchForm.addEventListener('submit', function(e){
 
 function search(q) {
 
-    const APIKEY = "---------";
-
-    const path =
-    `https://api.giphy.com/v1/gifs/search?api_key=${APIKEY}=Pokemon+anime&limit=100&offset=0&rating=g&lang=en`;
+    const APIKEY = "";
 
 
+    const path=
+    `https://api.giphy.com/v1/gifs/search?api_key=${APIKEY}=anime+${q}`;
     
     fetch(path).then(function(res){
         return res.json() 
@@ -43,8 +42,12 @@ function search(q) {
         })
 
         resultsEl.innerHTML = resultsHTML
+
     }).catch(function(){
         console.log('There was an error');
     })
+
 }   
+
+
 
