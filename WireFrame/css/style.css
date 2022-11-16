@@ -2,6 +2,12 @@
 
 /*Styles pertaining to The HD display of the webpage*/
 
+body{
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+}
+
 header {
     width: 100%;
     height: 60px;
@@ -37,9 +43,23 @@ header {
         text-decoration: underline;
     }
 
+form{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.results {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
 
 
 footer {
+    display: flex;
+    margin-top:auto;
     width: 100%;
     height: 60px;
     background: rgb(100,100,100);
@@ -48,7 +68,42 @@ footer {
     
 /*Styles pertaining to The Mobile Version of the webpage*/
 
+
 @media (max-width: 550px)
 {
+    header {
+      height: auto;
+    }
+    
+        .logo {
+            display:block;
+            width: 100%;
+            height: 60px;
+            background: rgb(200,200,200);
+        }
 
+        nav {
+            display:block;
+            width:100%;
+        }
+    
+        nav li {
+            display: flex;
+            margin-right: 30px;
+            font-weight: bold;
+            font-size: 18px;
+            justify-content: center;
+        }
+
+    form{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        }
+
+    .results {
+        display: flex; 
+        flex-flow: column wrap;
+        justify-content: center;
+        }
 }
