@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title Placeholder</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
@@ -17,7 +18,15 @@
             </ul>
         </nav>
     </header>
-
+    <main>
+        <form id="search-form">
+            <label>Search: </label>
+            <input  id="search-input" type="search" placeholder="Type Something" />
+            <button type="submit">Enter</button>
+        </form>
+        <div id="results" class="results"></div>
+        <script src="js/main.js"></script>
+    </main>
     <footer>
         
     </footer>

@@ -34,9 +34,7 @@ function search(q) {
             const title = obj.title;
 
             resultsHTML += `<img
-                    src="${url}"
-                    width="${width}"
-                    height="${height}"
+                    src="${url}"                  
                     alt="${title}"
                     >`
         })
