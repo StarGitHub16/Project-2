@@ -10,10 +10,11 @@ it will show results related to an anime. Even writing something as simple as th
 This website was desgined using HTML, CSS, and JavaScript.
 
 Some future implemntations could be:
-        1) Providing a way for the gifs to come up more dynamically and be responsive as the user is typing rather than having to hit the enter button
 
-        2) Adding a media query for tablet users or just an inbetween screen soulution between the dexktop and mobile versions.
+    1) Providing a way for the gifs to come up more dynamically and be responsive as the user is typing rather than having to hit the enter button
 
-        3) Having the search results return even more gifs back, or perhaps proving some kinda limiter
+    2) Adding a media query for tablet users or just an inbetween screen soulution between the dexktop and mobile versions.
+
+    3) Having the search results return even more gifs back, or perhaps providng some kinda limiter.
 
         
