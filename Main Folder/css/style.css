@@ -10,7 +10,6 @@ body{
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        
 }
 
 
@@ -110,7 +109,7 @@ footer {
 /*Styles pertaining to The Mobile Version of the webpage*/
 
 
-@media (max-width: 550px)
+@media (max-width: 320px)
 {
     header {
       height: auto;
