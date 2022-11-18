@@ -5,7 +5,7 @@ Melad Sameri
 This is a website called Animination that is using Giphy to show results for any and all relevant gifs related to anime!
 
 You simply type in the search field anything you want and
-it will show results related to an anime. Even writing something as simple as the keyword "cool"
+it will show results related to an anime. Even writing something as simple as the keyword "cool",
 
 This website was desgined using HTML, CSS, and JavaScript.
 
