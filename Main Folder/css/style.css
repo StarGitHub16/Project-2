@@ -6,20 +6,29 @@ body{
         min-height: 100vh;
         display: flex;
         flex-direction: column;
+        background: url(stagebackground0.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        
 }
 
 header {
     width: 100%;
     height: 60px;
-    background: rgb(100,100,100);
+    background-color: rgb(0,0,0);
     margin-bottom: 5px;
+    
 }
 
     .logo {
-        width: 200px;
+        width: 35%;
         height: 60px;
-        background: rgb(200,200,200);
+        font-family: 'Fredoka One', cursive;
+        font-size: 45px;
+        color: yellow;
         float: left;
+        text-align:center;
     }
 
     nav {
@@ -31,6 +40,8 @@ header {
         margin-right: 30px;
         font-weight: bold;
         font-size: 18px;
+        font-family: 'Fredoka One', cursive;
+        color: rgb(255,255,255);
     }
 
     nav li a {
@@ -39,8 +50,8 @@ header {
     }
 
     nav li a:hover {
-        color: rgb(150,150,150);
-        text-decoration: underline;
+        color: yellow;
+        text-decoration: none;
     }
 
 form{
@@ -48,6 +59,35 @@ form{
     justify-content: center;
     padding: 10px;
 }
+
+    h1{
+        color:yellow;
+
+    }
+
+    input {
+        width: 225px;
+        height: 45px;
+        margin: 1px;
+        font-size: 150%;
+        font-family: 'Fredoka One', cursive;
+        border-radius: 5px;
+    }
+
+    button {
+        width: 225px;
+        height: 45px;
+        background: red;
+        text-align: center;
+        font-size: 150%;
+        padding: 20px 5px 5 px;
+        border: 1px solid;
+        border-radius: 5px;
+        box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.5), 0px 2px 0px 0px rgba(185, 91, 12, 1), inset 0px 1px 0px 0px rgba(255,255,255,0.5);
+        cursor: pointer;
+        font-family: 'Fredoka One', cursive;
+        padding-bottom: 5px;
+    }
 
 .results {
     display: flex;
@@ -62,14 +102,16 @@ footer {
     margin-top:auto;
     width: 100%;
     height: 60px;
-    background: rgb(100,100,100);
     text-align:center;
+    background: rgb(0,0,0);
     }
+
+
     
 /*Styles pertaining to The Mobile Version of the webpage*/
 
 
-@media (max-width: 320px)
+@media (max-width: 550px)
 {
     header {
       height: auto;
@@ -77,9 +119,10 @@ footer {
     
         .logo {
             display:block;
+            
             width: 100%;
             height: 60px;
-            background: rgb(200,200,200);
+            text-align: center;
         }
 
         nav {
@@ -100,6 +143,14 @@ footer {
         justify-content: center;
         padding: 10px;
         }
+
+        input {
+            width: 150px;
+            }
+        
+            button {
+            width: 100px;
+            }
 
     .results {
         display: flex; 
